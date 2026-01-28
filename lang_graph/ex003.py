@@ -16,8 +16,8 @@ from langgraph.graph.message import Messages
 
 GOOGLE_API_KEY = Settings.required("GOOGLE_API_KEY")
 
-llm = init_chat_model("google_genai:gemini-2.5-flash")
-#llm = init_chat_model("ollama:gpt-oss:20b")
+#llm = init_chat_model("google_genai:gemini-2.5-flash")
+llm = init_chat_model(model_provider="ollama", model="llama3.2", base_url="http://localhost:11434")
 
 # 1 - Definição de state
 class AgentState(TypedDict):

@@ -27,3 +27,9 @@ Veja um exemplo de grafo simples:
 - **State** - define o estado do grafo (pode ser um `TypedDict`, uma `dataclass` ou um modelo `Pydantic`).
 - **Nodes** - funções que recebem o estado como input, executam ações e retornam o estado atualizado.
 - **Edges** - conexões entre nós, podendo ser simples ou condicionais.
+
+
+### LLMs
+
+[AI Studio](https://aistudio.google.com/)
+[Ollama](https://ollama.com/)
