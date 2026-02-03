@@ -1,4 +1,4 @@
-from lang_graph.config import Settings
+#from lang_graph.config import Settings
 
 #import threading
 from collections.abc import Sequence
@@ -14,7 +14,7 @@ from langgraph.graph import END, START, StateGraph, add_messages
 from langgraph.graph.state import RunnableConfig
 from langgraph.graph.message import Messages
 
-GOOGLE_API_KEY = Settings.required("GOOGLE_API_KEY")
+#GOOGLE_API_KEY = Settings.required("GOOGLE_API_KEY")
 
 #llm = init_chat_model("google_genai:gemini-2.5-flash")
 llm = init_chat_model(model_provider="ollama", model="llama3.2", base_url="http://localhost:11434")

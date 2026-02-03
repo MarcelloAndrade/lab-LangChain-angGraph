@@ -1,4 +1,4 @@
-# Introdução ao LangGraph
+# LangGraph
 
 [**LangGraph**](https://docs.langchain.com/oss/python/langgraph/overview)  é uma estrutura de orquestração de baixo nível e um ambiente de execução para criar, gerenciar e implantar agentes de longa duração e com estado.
 

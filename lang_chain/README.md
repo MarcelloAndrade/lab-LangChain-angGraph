@@ -1,4 +1,4 @@
-# Introdução ao LangChain
+# LangChain
 
 [**LangChain**](https://docs.langchain.com/oss/python/langchain/short-term-memory) é um framework de código aberto com uma arquitetura de agentes pré-construída e integrações para qualquer modelo. Fornece uma arquitetura de agente pré-construída e integrações de modelos para ajudar você a começar rapidamente e incorporar LLMs em seus agentes e aplicativos de forma integrada.
 
